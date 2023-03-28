@@ -1,0 +1,56 @@
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: red;
+    text-decoration: underline;
+}
+
+.navbar{
+    background-image: linear-gradient(to right, red , yellow);
+}
+
+.todayWeather{
+    margin-top: 25px;
+    border: 5px solid black;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.htmlCityName{
+    padding-left: 25px;
+}
+
+.htmlCityWeather{
+    padding-left: 25px;
+}
+
+.htmlCityWind{
+    padding-left: 25px;
+}
+
+.forecastTitle{
+    margin-left: 10px;
+}
+
+.forecastCard{
+    margin-top: 25px;
+    margin-left: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 10px;
+
+}
+
+.forecast{
+    border-radius: 10px;
+    background-image: linear-gradient(#000080, #A60AA1) ;
+}
+
+.red {
+    margin-left: 10px;
+    margin-right: 10px;
+    color:#EBEAD1;
+}
